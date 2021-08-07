@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @PabloBagliere
+- 👀 I’m interested in JavaScript, TypesSript, [react.js](https://reactjs.org/) and [node.js](https://nodejs.org/en/)
+- 🌱 I’m currently learning suit testing with [jest](https://jestjs.io/), [Cypress](https://www.cypress.io/) and [Testing Librery](https://testing-library.com/) 
+- 📫 How to reach me [Linkedin](https://www.linkedin.com/in/pablo-bagliere/)
