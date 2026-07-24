@@ -1,0 +1,21 @@
+name: Latest blog posts
+
+on:
+  schedule:
+    # Cada 6 horas actualiza la sección "Últimos artículos" del README
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: 'https://dev.to/feed/pablobagliere'
+          max_post_count: 5
+          commit_message: 'docs: últimos artículos de dev.to'
