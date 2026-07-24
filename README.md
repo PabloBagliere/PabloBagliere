@@ -34,6 +34,7 @@ logout — mejor seguí mirando en https://pablobagliere.dev
 ## Últimos artículos
 
 <!-- BLOG-POST-LIST:START -->
+- [Reverse Proxy en Docker con Nginx y SSL automático](https://dev.to/pablobagliere/reverse-proxy-en-docker-con-nginx-y-ssl-automatico-2ck)
 <!-- BLOG-POST-LIST:END -->
 
 ## Contacto
